@@ -8,6 +8,8 @@ and what happened to them afterward.
 
 **Live:** https://selfradiance.github.io/denial-ledger/
 
+**Status:** a finished snapshot compiled in November 2026. Not maintained or updated. Fork it if you want to keep a ledger of your own.
+
 ## What gets in
 
 - A public figure, campaign, company or government office says a specific video, audio clip or photo is fake or AI-made.
@@ -44,9 +46,5 @@ Adding a case: create `entries/NNN.json` (copy an existing one for the fields), 
 `npm run build`, get it fact-checked, then `npm run seal`. Once sealed, never edit it.
 
 The receipt code (`js/sha256.js`, `js/ots.js`) is shared with [Witness Stamp](https://github.com/selfradiance/witness-stamp).
-
-## Found an error or a missing case?
-
-Open an issue with a link to a credible source.
 
 MIT licensed.

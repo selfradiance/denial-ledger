@@ -54,7 +54,7 @@
 </head>
 <body>
 <main>
-  <div class="kicker">A sealed public record</div>
+  <div class="kicker">A sealed public record · Snapshot, November 2026</div>
   <h1>The Denial Ledger</h1>
   <p class="lede">When anything can be faked, anyone can say "that's fake." This logs the times powerful people said it, and whether they were right. Every entry is sealed so it can't be quietly rewritten.</p>
 
@@ -73,15 +73,15 @@
       <li>Both directions count. Fakes correctly called fake are logged right alongside real footage called fake. A ledger of only one side would be a hit list, not a record.</li>
       <li>Each entry is rated by what the evidence says about the footage, on a scale from confirmed real to confirmed fake. "Likely" means credible analysis points one way but it isn't settled. "Unresolved" means the evidence doesn't settle it.</li>
       <li>No private individuals. Claims are paraphrased, not quoted at length.</li>
-      <li>This is a sample, not a complete list.</li>
+      <li>This is a sample, not a complete list, and it is not being added to.</li>
     </ul>
     <h3>Sealed, and why</h3>
     <p>Each entry file is fingerprinted (SHA-256) and the fingerprint is timestamped in the Bitcoin blockchain through <a href="https://opentimestamps.org" target="_blank" rel="noopener">OpenTimestamps</a>. Your browser checks every entry against its seal when this page loads. If anyone edits a sealed entry, including us, it shows up as broken.</p>
     <p>Mistakes don't get erased. They get a correction, which is sealed too and shown under the original. Wrong stays wrong, in public.</p>
     <h3>Check a seal yourself</h3>
     <p>Download an entry's file and its .ots seal from the links on the entry, then drop both into <a href="https://opentimestamps.org" target="_blank" rel="noopener">opentimestamps.org</a>. It shows the Bitcoin block and date, and doesn't depend on this site.</p>
-    <h3>Found an error, or a case we're missing?</h3>
-    <p>Open an issue on <a href="https://github.com/selfradiance/denial-ledger/issues" target="_blank" rel="noopener">GitHub</a> with a link to a credible source.</p>
+    <h3>A finished snapshot</h3>
+    <p>This ledger was compiled in November 2026 and is not updated. It records those cases as they stood then. The code is open source if anyone wants to start their own.</p>
   </section>
 
   <footer>Part of a set of small tools on the "liar's dividend," alongside <a href="https://selfradiance.github.io/witness-stamp/" target="_blank" rel="noopener">Witness Stamp</a>. Open source, MIT licensed.</footer>
