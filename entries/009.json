@@ -7,21 +7,21 @@
   "subject": "Crowd at a Kamala Harris rally at Detroit Metro Airport, Aug. 7, 2024",
   "called_fake_by": "Donald Trump, then the Republican nominee",
   "claim": "Trump posted that a photo of the large crowd was AI-generated and that nobody was actually there.",
-  "finding": "The Harris campaign said a staffer took the photo and it wasn't altered. News outlets had their own photos and video of the same crowd. Image-forensics expert Hany Farid found no sign of AI. PolitiFact rated the claim Pants on Fire.",
-  "verdict": "real-called-fake",
-  "outcome": "No consequence. Trump won the presidency that November.",
+  "finding": "The Harris campaign said a staffer took the photo and that AI wasn't used to make or modify it. News outlets had their own photos and video of the same crowd. Image-forensics expert Hany Farid found no sign of AI generation. PolitiFact rated the claim Pants on Fire.",
+  "verdict": "confirmed-real",
+  "outcome": "The claim circulated widely among supporters. News organizations that covered the rally published their own photos and video of the crowd, and fact-checkers pointed to that coverage and to Farid's analysis.",
   "sources": [
     {
       "title": "Donald Trump is wrong. These images of Kamala Harris' Aug. 7 Detroit rally are corroborated, not AI.",
       "publisher": "PolitiFact",
-      "date": "2024-08-12",
-      "url": "https://www.politifact.com/factchecks/2024/aug/12/donald-trump/why-trumps-claim-that-the-harris-campaign-used-ai/"
+      "url": "https://www.politifact.com/factchecks/2024/aug/12/donald-trump/why-trumps-claim-that-the-harris-campaign-used-ai/",
+      "date": "2024-08-12"
     },
     {
       "title": "Why false claims that a picture of a Kamala Harris rally was AI-generated matter",
       "publisher": "NPR",
-      "date": "2024-08-14",
-      "url": "https://www.npr.org/2024/08/14/nx-s1-5072687/trump-harris-walz-election-rally-ai-fakes"
+      "url": "https://www.npr.org/2024/08/14/nx-s1-5072687/trump-harris-walz-election-rally-ai-fakes",
+      "date": "2024-08-14"
     }
   ]
 }

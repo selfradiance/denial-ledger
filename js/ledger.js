@@ -1,11 +1,14 @@
 import { sha256, toHex } from './sha256.js';
 import { readOts } from './ots.js';
 
+// The scale runs from "the footage was real" (the denial was wrong) to "the footage was fake" (the denial was right).
 const VERDICTS = {
-  'real-called-fake': { label: 'Real. Called fake.', short: 'Real, called fake', cls: 'r', color: 'var(--red)' },
-  'fake-called-fake': { label: 'Fake. Called fake.', short: 'Fake, called fake', cls: 'g', color: 'var(--green)' },
-  'real-disputed-context': { label: 'Real footage. Framing disputed.', short: 'Real, framing disputed', cls: 'a', color: 'var(--amber)' },
-  'unresolved': { label: 'Unresolved', short: 'Unresolved', cls: 'u', color: 'var(--gray)' },
+  'confirmed-real': { label: 'Confirmed real', short: 'Confirmed real', color: '#9e2a20' },
+  'likely-real': { label: 'Likely real', short: 'Likely real', color: '#d4685d' },
+  'real-disputed-context': { label: 'Real footage, framing disputed', short: 'Real, framing disputed', color: '#c98b2b' },
+  'unresolved': { label: 'Unresolved', short: 'Unresolved', color: '#8a867d' },
+  'likely-fake': { label: 'Likely fake', short: 'Likely fake', color: '#5fa77a' },
+  'confirmed-fake': { label: 'Confirmed fake', short: 'Confirmed fake', color: '#24683f' },
 };
 const MEDIA = { video: 'Video', audio: 'Audio', photo: 'Photo' };
 
@@ -56,11 +59,11 @@ function entryHtml(e, seal, file, sealPath, corrections) {
       ${sealHtml(c.file, c.sealPath, c.seal)}
     </div>`).join('');
   return `
-  <article class="entry ${e.verdict}" data-verdict="${e.verdict}">
+  <article class="entry" data-verdict="${e.verdict}" style="--c:${v.color}">
     <div class="meta"><span>#${esc(e.id)}</span><span>${esc(e.claim_date)}</span><span>${esc(e.country)}</span><span>${MEDIA[e.media] || esc(e.media)}</span></div>
     <h2>${esc(e.subject)}</h2>
     <p class="by">Called fake by: ${esc(e.called_fake_by)}</p>
-    <span class="verdict">${v.label}</span>
+    <span class="verdict">Footage: ${v.label}</span>
     <dl>
       <dt>The claim</dt><dd>${esc(e.claim)}</dd>
       <dt>What came out</dt><dd>${esc(e.finding)}</dd>
@@ -78,7 +81,7 @@ function renderScore(entries) {
   const counts = Object.fromEntries(Object.keys(VERDICTS).map((k) => [k, 0]));
   for (const e of entries) counts[e.verdict]++;
   $('score').innerHTML = Object.entries(VERDICTS).map(([k, v]) =>
-    `<button class="tile ${v.cls}${filter === k ? ' on' : ''}" data-k="${k}"><b>${counts[k]}</b><span>${v.short}</span></button>`).join('');
+    `<button class="tile${filter === k ? ' on' : ''}" data-k="${k}" style="--c:${v.color}"><b>${counts[k]}</b><span>${v.short}</span></button>`).join('');
   $('bar').innerHTML = Object.entries(VERDICTS).filter(([k]) => counts[k])
     .map(([k, v]) => `<i style="flex:${counts[k]};background:${v.color}"></i>`).join('');
   $('barnote').textContent = filter ? 'Showing one kind. Tap it again to show all.' : `${entries.length} entries. Tap a box to filter.`;

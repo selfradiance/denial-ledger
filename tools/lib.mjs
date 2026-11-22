@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { sha256, toHex } from '../js/sha256.js';
 import { readOts } from '../js/ots.js';
 
-export const VERDICTS = ['real-called-fake', 'fake-called-fake', 'real-disputed-context', 'unresolved'];
+export const VERDICTS = ['confirmed-real', 'likely-real', 'real-disputed-context', 'unresolved', 'likely-fake', 'confirmed-fake'];
 const ENTRY_FIELDS = ['id', 'added', 'claim_date', 'country', 'media', 'subject', 'called_fake_by', 'claim', 'finding', 'verdict', 'outcome', 'sources'];
 const CORRECTION_FIELDS = ['id', 'corrects', 'corrects_sha256', 'added', 'note', 'sources'];
 

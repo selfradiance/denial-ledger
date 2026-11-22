@@ -5,23 +5,29 @@
   "country": "Ukraine",
   "media": "video",
   "subject": "President Volodymyr Zelensky, appearing to tell Ukrainian troops to surrender",
-  "called_fake_by": "Volodymyr Zelensky, Ukraine 24 TV, Meta",
-  "claim": "A video of Zelensky at a podium urging soldiers to lay down their arms spread after hackers pushed it onto the Ukraine 24 TV website and news ticker. Ukraine said it was fake.",
-  "finding": "It was a crude deepfake: a mismatched face and voice placed onto a body. Ukrainian officials had warned weeks earlier that such a video might appear.",
-  "verdict": "fake-called-fake",
-  "outcome": "Zelensky quickly posted his own video rebutting it. Meta removed the deepfake. It had little effect.",
+  "called_fake_by": "Volodymyr Zelensky and Ukraine 24 TV",
+  "claim": "A video of Zelensky at a podium telling soldiers to lay down their arms appeared briefly on the hacked Ukraine 24 website, and the channel's TV ticker carried a written surrender message. Ukraine 24 and Zelensky said it was fake.",
+  "finding": "Observers pointed to an out-of-proportion head, a voice that didn't match and the wrong accent. Ukrainian officials had warned weeks earlier that a fake surrender video might appear.",
+  "verdict": "confirmed-fake",
+  "outcome": "Zelensky quickly posted his own video rebutting it, and Meta removed the fake. In NPR's reporting, Sam Gregory of the human-rights group WITNESS suggested that Ukraine's advance warnings and Zelensky's quick reply helped limit its reach in the West. It still circulated elsewhere.",
   "sources": [
     {
       "title": "Deepfake video of Zelenskyy could be 'tip of the iceberg' in info war, experts warn",
       "publisher": "NPR",
-      "date": "2022-03-16",
-      "url": "https://www.npr.org/2022/03/16/1087062648/deepfake-video-zelenskyy-experts-war-manipulation-ukraine-russia"
+      "url": "https://www.npr.org/2022/03/16/1087062648/deepfake-video-zelenskyy-experts-war-manipulation-ukraine-russia",
+      "date": "2022-03-16"
     },
     {
       "title": "Bad Deepfake of Zelenskyy Shared on Ukraine News Site in Reported Hack",
       "publisher": "Snopes",
-      "date": "2022-03-16",
-      "url": "https://www.snopes.com/news/2022/03/16/zelenskyy-deepfake-shared/"
+      "url": "https://www.snopes.com/news/2022/03/16/zelenskyy-deepfake-shared/",
+      "date": "2022-03-16"
+    },
+    {
+      "title": "Meta takes down deepfake of Ukraine's President Zelensky surrendering",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2022/03/16/facebook-zelensky-deepfake/",
+      "date": "2022-03-16"
     }
   ]
 }

@@ -16,7 +16,9 @@ and what happened to them afterward.
 - No private individuals. Claims are paraphrased, not quoted at length.
 - It's a sample, not a complete list.
 
-Verdicts: `real-called-fake`, `fake-called-fake`, `real-disputed-context` (genuine footage, dispute over editing or framing), `unresolved`.
+Each entry rates the footage itself on a six-step scale, from "the denial was wrong" to "the denial was right":
+`confirmed-real`, `likely-real`, `real-disputed-context` (genuine footage, dispute over editing or framing), `unresolved`, `likely-fake`, `confirmed-fake`.
+"Likely" means credible analysis points one way but it isn't settled.
 
 ## Sealed, append-only
 

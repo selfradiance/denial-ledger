@@ -4,29 +4,30 @@
   "claim_date": "2024-01-21",
   "country": "United States",
   "media": "audio",
-  "subject": "President Joe Biden, apparently telling New Hampshire voters to skip the primary",
+  "subject": "President Joe Biden, apparently telling New Hampshire Democrats to skip the primary",
   "called_fake_by": "New Hampshire officials and the Biden campaign",
-  "claim": "Robocalls with a voice like Biden's told Democrats to save their vote for November instead of voting in the primary. Officials said the calls were fake.",
-  "finding": "The voice was AI-cloned. Political consultant Steve Kramer admitted commissioning the calls.",
-  "verdict": "fake-called-fake",
-  "outcome": "The FCC fined Kramer $6 million, which he told the AP he won't pay. The phone company that carried the calls agreed to pay $1 million. In June 2025 a New Hampshire jury acquitted Kramer of all criminal charges.",
+  "claim": "Two days before the primary, thousands of voters got robocalls in a voice like Biden's telling them to save their vote for November. Officials said the calls were fake.",
+  "finding": "The voice was cloned with AI. Political consultant Steve Kramer admitted organizing the calls. He said he wanted to draw attention to the dangers of AI in campaigns.",
+  "verdict": "confirmed-fake",
+  "outcome": "The FCC proposed a $6 million penalty against Kramer in May 2024 and imposed it that September, over the spoofed caller ID. In a separate civil settlement, the telecom company that carried the calls agreed to pay $1 million. In the state criminal case, a jury found Kramer not guilty of all charges in June 2025.",
   "sources": [
     {
       "title": "Criminal charges and FCC fines issued for deepfake Biden robocalls",
       "publisher": "NPR",
-      "date": "2024-05-23",
-      "url": "https://www.npr.org/2024/05/23/nx-s1-4977582/fcc-ai-robocall-biden-new-hampshire-primary-kramer"
+      "url": "https://www.npr.org/2024/05/23/nx-s1-4977582/fcc-ai-robocall-biden-new-hampshire-primary-kramer",
+      "date": "2024-05-23"
     },
     {
-      "title": "Steve Kramer, who admitted deepfaking Biden's voice, indicted and fined $6 million",
-      "publisher": "NBC News",
-      "url": "https://www.nbcnews.com/politics/politics-news/steve-kramer-admitted-deepfaking-bidens-voice-new-hampshire-primary-rcna153626"
+      "title": "FCC Levies $6 Million Fine Against Biden Robocaller",
+      "publisher": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/business-and-practice/fcc-finalizes-6-million-fine-against-biden-deepfake-robocaller",
+      "date": "2024-09-26"
     },
     {
       "title": "New Hampshire jury acquits consultant behind AI robocalls mimicking Biden on all charges",
       "publisher": "Associated Press via CBS News",
-      "date": "2025-06-13",
-      "url": "https://www.cbsnews.com/boston/news/new-hampshire-jury-acquits-consultant-ai-robocalls-biden"
+      "url": "https://www.cbsnews.com/boston/news/new-hampshire-jury-acquits-consultant-ai-robocalls-biden",
+      "date": "2025-06-13"
     }
   ]
 }

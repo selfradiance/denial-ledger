@@ -7,21 +7,33 @@
   "subject": "Video of a bag being tossed from a second-floor White House window",
   "called_fake_by": "President Donald Trump",
   "claim": "Asked about the viral video, Trump said it was probably AI-generated, arguing the residence windows are sealed, armored and too heavy to open.",
-  "finding": "Hours earlier, a White House official had told TIME and other outlets the video showed a contractor doing regular maintenance while the president was away. That implied the footage was real.",
-  "verdict": "real-called-fake",
-  "outcome": "No consequence. The official explanation and the president's contradicted each other on the same day.",
+  "finding": "Earlier that day, a White House official had told TIME and other outlets that the video showed a contractor doing maintenance while the president was away. Hany Farid told ABC and CNN he saw no evidence of AI generation or manipulation. ABC said it had not independently verified the video.",
+  "verdict": "likely-real",
+  "outcome": "The White House's explanation and the president's contradicted each other on the same day. In the same remarks, Trump said that blaming AI could be his answer if something truly bad came out.",
   "sources": [
     {
       "title": "Trump Says Viral Video Was 'Probably A.I.' After White House Implied Otherwise",
       "publisher": "TIME",
-      "date": "2025-09-02",
-      "url": "https://time.com/7313902/white-house-video-window/"
+      "url": "https://time.com/7313902/white-house-video-window/",
+      "date": "2025-09-02"
     },
     {
       "title": "Trump calls video of bag thrown out of White House fake. A White House official reportedly suggests otherwise",
       "publisher": "ABC News / Good Morning America",
-      "date": "2025-09-03",
-      "url": "https://www.goodmorningamerica.com/news/story/trump-calls-video-bag-thrown-white-house-fake-125199121"
+      "url": "https://www.goodmorningamerica.com/news/story/trump-calls-video-bag-thrown-white-house-fake-125199121",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "Trump calls video of bag being thrown from White House an 'AI-generated' fake",
+      "publisher": "CNN via KEYT",
+      "url": "https://keyt.com/politics/cnn-us-politics/2025/09/02/trump-calls-video-of-bag-being-thrown-from-white-house-an-ai-generated-fake/",
+      "date": "2025-09-02"
+    },
+    {
+      "title": "Trump says video showing items thrown from White House is AI after his team says it's real",
+      "publisher": "Associated Press via WJLA",
+      "url": "https://wjla.com/news/local/trump-says-video-showing-items-thrown-from-white-house-is-ai-after-his-team-says-its-real-washington-dc-washingtonian-problems-video-windows-throwing-stuff-out-the-window-president",
+      "date": "2025-09-02"
     }
   ]
 }

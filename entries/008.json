@@ -4,24 +4,24 @@
   "claim_date": "2024-06-17",
   "country": "United States",
   "media": "video",
-  "subject": "Viral clips of President Joe Biden appearing to freeze or wander off at events",
+  "subject": "Viral clips of President Joe Biden at the G7 summit and a Los Angeles fundraiser",
   "called_fake_by": "White House Press Secretary Karine Jean-Pierre",
-  "claim": "Asked about clips of Biden at the G7 and a Los Angeles fundraiser, Jean-Pierre called them \"cheap fakes\" made in bad faith. At one point she also used the word deepfakes.",
-  "finding": "The clips were real footage, not AI. Fact-checkers found some were cropped or framed misleadingly; in the G7 clip, Biden was turning to a skydiver who was out of frame. Whether the clips fairly showed his condition was disputed.",
+  "claim": "At a June 17 briefing, Jean-Pierre called the clips \"cheap fakes\" made in bad faith. She also used the word deepfakes.",
+  "finding": "Both clips were real footage, not AI. G7: wider footage shows Biden turning toward a parachutist who was out of the cropped frame. Los Angeles: at the fundraiser, Biden paused while the crowd applauded, then left the stage with Barack Obama. The question in each case was framing and cropping, not authenticity.",
   "verdict": "real-disputed-context",
-  "outcome": "Ten days later, the June 27 debate intensified concern about Biden's fitness. He withdrew from the race in July 2024.",
+  "outcome": "\"Cheap fake\" became a campaign talking point. PolitiFact noted the term predated 2024 and refers to real footage that's been edited or stripped of context.",
   "sources": [
     {
       "title": "'Cheap fake' videos, and the phrase itself, take 2024 election's center stage",
       "publisher": "PolitiFact",
-      "date": "2024-06-21",
-      "url": "https://www.politifact.com/article/2024/jun/21/cheap-fake-videos-and-the-phrase-itself-take-2024/"
+      "url": "https://www.politifact.com/article/2024/jun/21/cheap-fake-videos-and-the-phrase-itself-take-2024/",
+      "date": "2024-06-21"
     },
     {
       "title": "White House says Joe Biden is a victim of 'cheap fakes': What are they?",
       "publisher": "Al Jazeera",
-      "date": "2024-06-18",
-      "url": "https://www.aljazeera.com/news/2024/6/18/white-house-says-joe-biden-is-a-victim-of-cheap-fakes-what-are-they"
+      "url": "https://www.aljazeera.com/news/2024/6/18/white-house-says-joe-biden-is-a-victim-of-cheap-fakes-what-are-they",
+      "date": "2024-06-18"
     }
   ]
 }

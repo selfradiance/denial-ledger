@@ -1,21 +1,21 @@
 {
   "id": "003",
   "added": "2026-11-22",
-  "claim_date": "2023-04-22",
+  "claim_date": "2023-04-26",
   "country": "India",
   "media": "audio",
-  "subject": "Tamil Nadu Finance Minister Palanivel Thiaga Rajan (DMK)",
+  "subject": "Tamil Nadu Finance Minister Palanivel Thiaga Rajan (DMK): the second of two leaked audio clips",
   "called_fake_by": "Palanivel Thiaga Rajan",
-  "claim": "The state BJP chief released two audio clips in which a voice said to be Thiaga Rajan criticized his own party's leaders. He called both clips fabricated and machine-generated.",
-  "finding": "Rest of World had the clips tested by independent experts. Results on the first clip were inconclusive. The second was assessed as authentic, not a deepfake.",
-  "verdict": "real-called-fake",
-  "outcome": "He kept insisting the clips were fake. No independent analysis backed that for the second clip.",
+  "claim": "The state BJP chief, K. Annamalai, released two clips that seemed to have Thiaga Rajan criticizing his own party. Nobody has said where the recordings came from. The minister called the first clip fabricated and machine-generated on April 22. After the second came out on April 25, he denied saying what was on it and called it fabricated.",
+  "finding": "Rest of World had both clips examined by three independent teams. On the first, they were split: one team judged it likely fake, and the others couldn't reach a conclusion. All three assessed the second clip as authentic or likely authentic. This entry is about the second clip only.",
+  "verdict": "likely-real",
+  "outcome": "None of the three analyses Rest of World reported supported his denial of the second clip.",
   "sources": [
     {
       "title": "An Indian politician says scandalous audio clips are AI deepfakes. We had them tested",
       "publisher": "Rest of World",
-      "date": "2023",
-      "url": "https://restofworld.org/2023/indian-politician-leaked-audio-ai-deepfake/"
+      "url": "https://restofworld.org/2023/indian-politician-leaked-audio-ai-deepfake/",
+      "date": "2023-07-05"
     },
     {
       "title": "'Blame it on AI': How 'Deepfakes' Become an Easy Excuse to Dismiss Reality",

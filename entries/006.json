@@ -4,24 +4,29 @@
   "claim_date": "2023-10-08",
   "country": "United Kingdom",
   "media": "audio",
-  "subject": "Labour leader Keir Starmer, apparently swearing at staff",
+  "subject": "Labour leader Keir Starmer, apparently swearing at a staffer",
   "called_fake_by": "Labour sources and Conservative MPs, including Simon Clarke and Tom Tugendhat",
-  "claim": "On the first day of Labour's conference, an anonymous account posted audio of a voice like Starmer's verbally abusing a staffer. Politicians from both major parties warned it was fake.",
-  "finding": "Full Fact found no evidence the clip was genuine. It was widely reported as an AI fake, alongside a second clip of him supposedly saying he hated Liverpool.",
-  "verdict": "fake-called-fake",
-  "outcome": "X declined to remove it, citing a lack of proof it was fake. Starmer became prime minister in July 2024. The Liverpool clip keeps resurfacing.",
+  "claim": "On the opening day of Labour's conference, an anonymous account posted audio of a voice like Starmer's berating a staffer. Politicians from both major parties said it was fake.",
+  "finding": "Full Fact found no evidence the clip was genuine, but its audio expert couldn't determine whether it was synthetic. Cross-party denials show who called it fake. They don't show how it was made.",
+  "verdict": "unresolved",
+  "outcome": "Labour officials told Bloomberg that X declined their requests to take it down, saying it needed more proof the audio was fake. X didn't respond to Bloomberg's request for comment.",
   "sources": [
     {
       "title": "No evidence that audio clip of Keir Starmer supposedly swearing at his staff is genuine",
       "publisher": "Full Fact",
-      "date": "2023-10-11",
-      "url": "https://fullfact.org/news/keir-starmer-audio-swearing/"
+      "url": "https://fullfact.org/news/keir-starmer-audio-swearing/",
+      "date": "2023-10-11"
     },
     {
       "title": "UK opposition leader targeted by AI-generated fake audio smear",
       "publisher": "The Record",
-      "date": "2023-10-09",
-      "url": "https://therecord.media/keir-starmer-labour-party-leader-audio-smear-social-media-deepfake"
+      "url": "https://therecord.media/keir-starmer-labour-party-leader-audio-smear-social-media-deepfake",
+      "date": "2023-10-09"
+    },
+    {
+      "title": "Battle With X Over Starmer Deepfake Highlights UK Election Worry",
+      "publisher": "Bloomberg via Yahoo News",
+      "url": "https://au.news.yahoo.com/battle-x-over-starmer-deepfake-140000402.html"
     }
   ]
 }

@@ -4,24 +4,30 @@
   "claim_date": "2023-04-26",
   "country": "United States",
   "media": "video",
-  "subject": "Elon Musk's 2016 public statements about Tesla Autopilot",
-  "called_fake_by": "Tesla's lawyers, in a wrongful-death lawsuit",
-  "claim": "Lawyers for the family of a man killed using Autopilot wanted to question Musk about his 2016 claims. Tesla's lawyers argued it couldn't confirm the recordings were genuine because Musk is a frequent deepfake target.",
-  "finding": "No one presented evidence that the recordings were altered. The judge called the argument deeply troubling: it would let famous people disown anything they said on record.",
-  "verdict": "real-called-fake",
-  "outcome": "The judge rejected the argument and tentatively ordered Musk to sit for a deposition.",
+  "subject": "Elon Musk's recorded 2016 remarks about Tesla Autopilot",
+  "called_fake_by": "Tesla's lawyers, in the wrongful-death suit over Walter Huang's 2018 crash (they raised it as a possibility)",
+  "claim": "Huang's family wanted to question Musk under oath about his 2016 claims for Autopilot, including recorded conference remarks. Tesla's lawyers said Musk couldn't recall the details. They also raised the possibility that recordings of him could be deepfakes, since he is a frequent target. They didn't point to any specific recording as altered.",
+  "finding": "The cited reporting describes no evidence that any recording was altered. Judge Evette Pennypacker called the argument deeply troubling, saying it would let famous people avoid owning what they said. Her order didn't rule on authenticity. (A separate 2016 Tesla promo video was a different matter: a Tesla engineer testified that it was staged.)",
+  "verdict": "likely-real",
+  "outcome": "The judge tentatively ordered a deposition of Musk. Tesla settled with the Huang family in April 2024, on the eve of trial. The terms weren't disclosed.",
   "sources": [
     {
       "title": "People are trying to claim real videos are deepfakes. The courts are not amused",
       "publisher": "NPR",
-      "date": "2023-05-08",
-      "url": "https://www.npr.org/2023/05/08/1174132413/people-are-trying-to-claim-real-videos-are-deepfakes-the-courts-are-not-amused"
+      "url": "https://www.npr.org/2023/05/08/1174132413/people-are-trying-to-claim-real-videos-are-deepfakes-the-courts-are-not-amused",
+      "date": "2023-05-08"
     },
     {
       "title": "Elon Musk will likely testify about his Autopilot statements",
       "publisher": "TechCrunch",
-      "date": "2023-04-26",
-      "url": "https://techcrunch.com/2023/04/26/elon-musk-will-likely-testify-about-his-autopilot-statements/"
+      "url": "https://techcrunch.com/2023/04/26/elon-musk-will-likely-testify-about-his-autopilot-statements/",
+      "date": "2023-04-26"
+    },
+    {
+      "title": "Tesla settles fatal Autopilot crash lawsuit",
+      "publisher": "Axios",
+      "url": "https://www.axios.com/2024/04/08/tesla-autopilot-crash-lawsuit-settlement",
+      "date": "2024-04-08"
     }
   ]
 }

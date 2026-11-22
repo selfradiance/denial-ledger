@@ -5,17 +5,17 @@
   "country": "Gabon",
   "media": "video",
   "subject": "President Ali Bongo's New Year's address",
-  "called_fake_by": "Political opponents, including former rival candidate Bruno Ben Moubamba",
-  "claim": "After months out of public view following medical treatment abroad, Bongo appeared stiff and unusual in a New Year's video. Critics said it was a deepfake hiding his true condition.",
-  "finding": "Forensic analysis found no evidence the video was a deepfake. Experts said his appearance was most likely explained by illness, makeup and cosmetic work, though none could rule it out with total certainty.",
+  "called_fake_by": "Political opponents, including former presidential rival Bruno Ben Moubamba",
+  "claim": "Bongo had been out of public view for months while being treated abroad; Gabon's vice president described his illness as a stroke. When his New Year's Eve video showed him looking stiff and unnatural, opponents said it was a deepfake meant to hide his condition.",
+  "finding": "Forensic analysis turned up no evidence of a deepfake, and the available tests favored authenticity. Experts suggested illness and makeup or cosmetic work as likelier explanations for how he looked. They stopped short of calling the question fully settled.",
   "verdict": "unresolved",
-  "outcome": "About a week later, soldiers attempted a coup, citing doubts about the video. The coup failed within hours.",
+  "outcome": "On January 7, 2019, soldiers briefly seized the state broadcaster in a coup attempt. They questioned Bongo's health and his fitness to govern and criticized the address. That is separate from the opponents' deepfake claim. The coup failed the same morning.",
   "sources": [
     {
       "title": "The Bizarre and Terrifying Case of the \"Deepfake\" Video that Helped Bring an African Nation to the Brink",
       "publisher": "Mother Jones",
-      "date": "2019-03-15",
-      "url": "https://www.motherjones.com/politics/2019/03/deepfake-gabon-ali-bongo/"
+      "url": "https://www.motherjones.com/politics/2019/03/deepfake-gabon-ali-bongo/",
+      "date": "2019-03-15"
     },
     {
       "title": "Deepfakes have shaken governments abroad",
