@@ -1,0 +1,27 @@
+{
+  "id": "004",
+  "added": "2026-11-22",
+  "claim_date": "2023-04-26",
+  "country": "United States",
+  "media": "video",
+  "subject": "Elon Musk's 2016 public statements about Tesla Autopilot",
+  "called_fake_by": "Tesla's lawyers, in a wrongful-death lawsuit",
+  "claim": "Lawyers for the family of a man killed using Autopilot wanted to question Musk about his 2016 claims. Tesla's lawyers argued it couldn't confirm the recordings were genuine because Musk is a frequent deepfake target.",
+  "finding": "No one presented evidence that the recordings were altered. The judge called the argument deeply troubling: it would let famous people disown anything they said on record.",
+  "verdict": "real-called-fake",
+  "outcome": "The judge rejected the argument and tentatively ordered Musk to sit for a deposition.",
+  "sources": [
+    {
+      "title": "People are trying to claim real videos are deepfakes. The courts are not amused",
+      "publisher": "NPR",
+      "date": "2023-05-08",
+      "url": "https://www.npr.org/2023/05/08/1174132413/people-are-trying-to-claim-real-videos-are-deepfakes-the-courts-are-not-amused"
+    },
+    {
+      "title": "Elon Musk will likely testify about his Autopilot statements",
+      "publisher": "TechCrunch",
+      "date": "2023-04-26",
+      "url": "https://techcrunch.com/2023/04/26/elon-musk-will-likely-testify-about-his-autopilot-statements/"
+    }
+  ]
+}

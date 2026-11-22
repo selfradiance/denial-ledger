@@ -1,0 +1,32 @@
+{
+  "id": "007",
+  "added": "2026-11-22",
+  "claim_date": "2024-01-21",
+  "country": "United States",
+  "media": "audio",
+  "subject": "President Joe Biden, apparently telling New Hampshire voters to skip the primary",
+  "called_fake_by": "New Hampshire officials and the Biden campaign",
+  "claim": "Robocalls with a voice like Biden's told Democrats to save their vote for November instead of voting in the primary. Officials said the calls were fake.",
+  "finding": "The voice was AI-cloned. Political consultant Steve Kramer admitted commissioning the calls.",
+  "verdict": "fake-called-fake",
+  "outcome": "The FCC fined Kramer $6 million, which he told the AP he won't pay. The phone company that carried the calls agreed to pay $1 million. In June 2025 a New Hampshire jury acquitted Kramer of all criminal charges.",
+  "sources": [
+    {
+      "title": "Criminal charges and FCC fines issued for deepfake Biden robocalls",
+      "publisher": "NPR",
+      "date": "2024-05-23",
+      "url": "https://www.npr.org/2024/05/23/nx-s1-4977582/fcc-ai-robocall-biden-new-hampshire-primary-kramer"
+    },
+    {
+      "title": "Steve Kramer, who admitted deepfaking Biden's voice, indicted and fined $6 million",
+      "publisher": "NBC News",
+      "url": "https://www.nbcnews.com/politics/politics-news/steve-kramer-admitted-deepfaking-bidens-voice-new-hampshire-primary-rcna153626"
+    },
+    {
+      "title": "New Hampshire jury acquits consultant behind AI robocalls mimicking Biden on all charges",
+      "publisher": "Associated Press via CBS News",
+      "date": "2025-06-13",
+      "url": "https://www.cbsnews.com/boston/news/new-hampshire-jury-acquits-consultant-ai-robocalls-biden"
+    }
+  ]
+}

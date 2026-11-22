@@ -1,0 +1,26 @@
+{
+  "id": "001",
+  "added": "2026-11-22",
+  "claim_date": "2018-12-31",
+  "country": "Gabon",
+  "media": "video",
+  "subject": "President Ali Bongo's New Year's address",
+  "called_fake_by": "Political opponents, including former rival candidate Bruno Ben Moubamba",
+  "claim": "After months out of public view following medical treatment abroad, Bongo appeared stiff and unusual in a New Year's video. Critics said it was a deepfake hiding his true condition.",
+  "finding": "Forensic analysis found no evidence the video was a deepfake. Experts said his appearance was most likely explained by illness, makeup and cosmetic work, though none could rule it out with total certainty.",
+  "verdict": "unresolved",
+  "outcome": "About a week later, soldiers attempted a coup, citing doubts about the video. The coup failed within hours.",
+  "sources": [
+    {
+      "title": "The Bizarre and Terrifying Case of the \"Deepfake\" Video that Helped Bring an African Nation to the Brink",
+      "publisher": "Mother Jones",
+      "date": "2019-03-15",
+      "url": "https://www.motherjones.com/politics/2019/03/deepfake-gabon-ali-bongo/"
+    },
+    {
+      "title": "Deepfakes have shaken governments abroad",
+      "publisher": "MIT Center for Advanced Virtuality",
+      "url": "https://deepfakes.virtuality.mit.edu/part2/pg10/"
+    }
+  ]
+}

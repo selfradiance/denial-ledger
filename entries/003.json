@@ -1,0 +1,26 @@
+{
+  "id": "003",
+  "added": "2026-11-22",
+  "claim_date": "2023-04-22",
+  "country": "India",
+  "media": "audio",
+  "subject": "Tamil Nadu Finance Minister Palanivel Thiaga Rajan (DMK)",
+  "called_fake_by": "Palanivel Thiaga Rajan",
+  "claim": "The state BJP chief released two audio clips in which a voice said to be Thiaga Rajan criticized his own party's leaders. He called both clips fabricated and machine-generated.",
+  "finding": "Rest of World had the clips tested by independent experts. Results on the first clip were inconclusive. The second was assessed as authentic, not a deepfake.",
+  "verdict": "real-called-fake",
+  "outcome": "He kept insisting the clips were fake. No independent analysis backed that for the second clip.",
+  "sources": [
+    {
+      "title": "An Indian politician says scandalous audio clips are AI deepfakes. We had them tested",
+      "publisher": "Rest of World",
+      "date": "2023",
+      "url": "https://restofworld.org/2023/indian-politician-leaked-audio-ai-deepfake/"
+    },
+    {
+      "title": "'Blame it on AI': How 'Deepfakes' Become an Easy Excuse to Dismiss Reality",
+      "publisher": "The Quint",
+      "url": "https://www.thequint.com/news/webqoof/deepfake-technology-ai-politicians-use-it-excuse-to-dismiss-proof-misinformation"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "009",
+  "added": "2026-11-22",
+  "claim_date": "2024-08-11",
+  "country": "United States",
+  "media": "photo",
+  "subject": "Crowd at a Kamala Harris rally at Detroit Metro Airport, Aug. 7, 2024",
+  "called_fake_by": "Donald Trump, then the Republican nominee",
+  "claim": "Trump posted that a photo of the large crowd was AI-generated and that nobody was actually there.",
+  "finding": "The Harris campaign said a staffer took the photo and it wasn't altered. News outlets had their own photos and video of the same crowd. Image-forensics expert Hany Farid found no sign of AI. PolitiFact rated the claim Pants on Fire.",
+  "verdict": "real-called-fake",
+  "outcome": "No consequence. Trump won the presidency that November.",
+  "sources": [
+    {
+      "title": "Donald Trump is wrong. These images of Kamala Harris' Aug. 7 Detroit rally are corroborated, not AI.",
+      "publisher": "PolitiFact",
+      "date": "2024-08-12",
+      "url": "https://www.politifact.com/factchecks/2024/aug/12/donald-trump/why-trumps-claim-that-the-harris-campaign-used-ai/"
+    },
+    {
+      "title": "Why false claims that a picture of a Kamala Harris rally was AI-generated matter",
+      "publisher": "NPR",
+      "date": "2024-08-14",
+      "url": "https://www.npr.org/2024/08/14/nx-s1-5072687/trump-harris-walz-election-rally-ai-fakes"
+    }
+  ]
+}

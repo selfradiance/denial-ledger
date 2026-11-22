@@ -1,0 +1,27 @@
+{
+  "id": "002",
+  "added": "2026-11-22",
+  "claim_date": "2022-03-16",
+  "country": "Ukraine",
+  "media": "video",
+  "subject": "President Volodymyr Zelensky, appearing to tell Ukrainian troops to surrender",
+  "called_fake_by": "Volodymyr Zelensky, Ukraine 24 TV, Meta",
+  "claim": "A video of Zelensky at a podium urging soldiers to lay down their arms spread after hackers pushed it onto the Ukraine 24 TV website and news ticker. Ukraine said it was fake.",
+  "finding": "It was a crude deepfake: a mismatched face and voice placed onto a body. Ukrainian officials had warned weeks earlier that such a video might appear.",
+  "verdict": "fake-called-fake",
+  "outcome": "Zelensky quickly posted his own video rebutting it. Meta removed the deepfake. It had little effect.",
+  "sources": [
+    {
+      "title": "Deepfake video of Zelenskyy could be 'tip of the iceberg' in info war, experts warn",
+      "publisher": "NPR",
+      "date": "2022-03-16",
+      "url": "https://www.npr.org/2022/03/16/1087062648/deepfake-video-zelenskyy-experts-war-manipulation-ukraine-russia"
+    },
+    {
+      "title": "Bad Deepfake of Zelenskyy Shared on Ukraine News Site in Reported Hack",
+      "publisher": "Snopes",
+      "date": "2022-03-16",
+      "url": "https://www.snopes.com/news/2022/03/16/zelenskyy-deepfake-shared/"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Denial Ledger</title>
+<meta name="description" content="A sealed public record of powerful people calling footage fake, and whether they were right.">
+<style>
+  :root {
+    --bg: #f4f1ea; --paper: #fffdf8; --ink: #1d1b18; --dim: #6d685f; --line: #ddd6c8;
+    --red: #b8342a; --green: #2f7d4f; --amber: #b7791f; --gray: #7a776f;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --serif: Georgia, 'Times New Roman', serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, Segoe UI, sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 48px 20px 80px; }
+  .kicker { font: 600 12px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--red); }
+  h1 { font: 700 48px/1.05 var(--serif); margin: 10px 0 12px; letter-spacing: -0.01em; }
+  .lede { font-size: 19px; color: var(--dim); max-width: 36em; margin: 0 0 32px; }
+  .score { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 14px; }
+  @media (max-width: 640px) { .score { grid-template-columns: 1fr 1fr; } h1 { font-size: 36px; } }
+  .tile { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; cursor: pointer; text-align: left; font: inherit; color: inherit; }
+  .tile.on { outline: 2px solid var(--ink); }
+  .tile b { display: block; font: 700 34px/1 var(--serif); }
+  .tile span { font-size: 13px; color: var(--dim); }
+  .tile.r b { color: var(--red); } .tile.g b { color: var(--green); } .tile.a b { color: var(--amber); } .tile.u b { color: var(--gray); }
+  .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin-bottom: 8px; }
+  .bar i { display: block; }
+  .barnote { font-size: 13px; color: var(--dim); margin: 0 0 32px; }
+  .entry { background: var(--paper); border: 1px solid var(--line); border-left: 6px solid var(--gray); border-radius: 10px; padding: 20px 22px; margin-bottom: 14px; }
+  .entry.real-called-fake { border-left-color: var(--red); }
+  .entry.fake-called-fake { border-left-color: var(--green); }
+  .entry.real-disputed-context { border-left-color: var(--amber); }
+  .meta { font: 12px/1.4 var(--mono); color: var(--dim); letter-spacing: .03em; text-transform: uppercase; display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .entry h2 { font: 700 21px/1.3 var(--serif); margin: 8px 0 4px; }
+  .by { color: var(--dim); margin: 0 0 12px; font-size: 15px; }
+  .verdict { display: inline-block; font: 700 12px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; padding: 6px 9px; border-radius: 5px; color: #fff; background: var(--gray); margin-bottom: 12px; }
+  .real-called-fake .verdict { background: var(--red); } .fake-called-fake .verdict { background: var(--green); } .real-disputed-context .verdict { background: var(--amber); }
+  dl { margin: 0; display: grid; grid-template-columns: 110px 1fr; gap: 8px 14px; }
+  @media (max-width: 640px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 8px !important; } }
+  dt { font: 600 12px/1.6 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--dim); }
+  dd { margin: 0; }
+  .sources { margin: 14px 0 0; padding: 0; list-style: none; font-size: 14px; }
+  .sources li { margin: 3px 0; }
+  a { color: var(--ink); }
+  .seal { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line); font: 12px/1.5 var(--mono); color: var(--dim); display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+  .seal .ok { color: var(--green); font-weight: 700; } .seal .bad { color: var(--red); font-weight: 700; } .seal .wait { color: var(--amber); font-weight: 700; }
+  .correction { margin-top: 14px; background: #fff6e5; border: 1px solid #f0d9a8; border-radius: 8px; padding: 12px 14px; font-size: 15px; }
+  .correction b { font: 700 12px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--amber); }
+  section.about { margin-top: 48px; border-top: 2px solid var(--ink); padding-top: 24px; }
+  section.about h3 { font: 700 20px/1.3 var(--serif); margin: 24px 0 8px; }
+  section.about p, section.about li { color: #3d3a34; }
+  footer { margin-top: 40px; font-size: 13px; color: var(--dim); }
+  .empty { color: var(--dim); padding: 20px 0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">A sealed public record</div>
+  <h1>The Denial Ledger</h1>
+  <p class="lede">When anything can be faked, anyone can say "that's fake." This logs the times powerful people said it, and whether they were right. Every entry is sealed so it can't be quietly rewritten.</p>
+
+  <div class="score" id="score"></div>
+  <div class="bar" id="bar"></div>
+  <p class="barnote" id="barnote">Tap a box to filter.</p>
+
+  <div id="list"><p class="empty">Loading the ledger…</p></div>
+
+  <section class="about">
+    <h3>What gets in</h3>
+    <ul>
+      <li>A public figure, campaign, company or government office says a specific video, audio clip or photo is fake or AI-made.</li>
+      <li>The claim and what came out afterward are documented by at least one credible news organization or fact-checker, linked on the entry.</li>
+      <li>Both directions count. Fakes correctly called fake are logged right alongside real footage called fake. A ledger of only one side would be a hit list, not a record.</li>
+      <li>No private individuals. Claims are paraphrased, not quoted at length.</li>
+      <li>This is a sample, not a complete list.</li>
+    </ul>
+    <h3>Sealed, and why</h3>
+    <p>Each entry file is fingerprinted (SHA-256) and the fingerprint is timestamped in the Bitcoin blockchain through <a href="https://opentimestamps.org" target="_blank" rel="noopener">OpenTimestamps</a>. Your browser checks every entry against its seal when this page loads. If anyone edits a sealed entry, including us, it shows up as broken.</p>
+    <p>Mistakes don't get erased. They get a correction, which is sealed too and shown under the original. Wrong stays wrong, in public.</p>
+    <h3>Check a seal yourself</h3>
+    <p>Download an entry's file and its .ots seal from the links on the entry, then drop both into <a href="https://opentimestamps.org" target="_blank" rel="noopener">opentimestamps.org</a>. It shows the Bitcoin block and date, and doesn't depend on this site.</p>
+    <h3>Found an error, or a case we're missing?</h3>
+    <p>Open an issue on <a href="https://github.com/selfradiance/denial-ledger/issues" target="_blank" rel="noopener">GitHub</a> with a link to a credible source.</p>
+  </section>
+
+  <footer>Part of a set of small tools on the "liar's dividend," alongside <a href="https://selfradiance.github.io/witness-stamp/" target="_blank" rel="noopener">Witness Stamp</a>. Open source, MIT licensed.</footer>
+</main>
+<script type="module" src="js/ledger.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "name": "The Denial Ledger",
+  "entries": [
+    {
+      "id": "001",
+      "file": "entries/001.json",
+      "sha256": "ee9fd92a2590b0754b44c179599531be6d57668250475cb97961e3f20671723b",
+      "seal": "seals/entries/001.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "002",
+      "file": "entries/002.json",
+      "sha256": "95150a5e470ad54a629642aed3cf2c5401052149132c9cba549f9e8ff560f1e0",
+      "seal": "seals/entries/002.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "003",
+      "file": "entries/003.json",
+      "sha256": "75cc46cb086099db8f032c7c2aa47de9ab1eba43d2db305173679995dc4fac02",
+      "seal": "seals/entries/003.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "004",
+      "file": "entries/004.json",
+      "sha256": "731db299a521350c9d9a24dbba99627fa0b3067377e68391a0c88329ebd79192",
+      "seal": "seals/entries/004.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "005",
+      "file": "entries/005.json",
+      "sha256": "38f5fc5fcbc65d5a929e4409d80a67291af389ceab619932ec4b9545d8f3806a",
+      "seal": "seals/entries/005.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "006",
+      "file": "entries/006.json",
+      "sha256": "2a1cf97bfd2cda790970a5c9de60c4ffbdaa8e7248d79357c0580a4967534b58",
+      "seal": "seals/entries/006.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "007",
+      "file": "entries/007.json",
+      "sha256": "4917d07922a70944878921baabd2fd27434765320076a6ac251a81454864738e",
+      "seal": "seals/entries/007.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "008",
+      "file": "entries/008.json",
+      "sha256": "7de47daf41e9f9e0860cc5501725af01eb4fcae69ce48b1ed2e2217027a841ea",
+      "seal": "seals/entries/008.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "009",
+      "file": "entries/009.json",
+      "sha256": "4f0bd989ae59fcd6647e7cfe16a1ac38334f4253ba067fb0b3033ea858f9b143",
+      "seal": "seals/entries/009.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "010",
+      "file": "entries/010.json",
+      "sha256": "25236fb58eedf89867274be776dd06791fac466a236d90ee73826baf9a4fbd98",
+      "seal": "seals/entries/010.ots",
+      "state": "unsealed"
+    },
+    {
+      "id": "011",
+      "file": "entries/011.json",
+      "sha256": "78b7b9ba7abad615c1bfc6a8fd10b588561a5362e5b132e06fc276d49bde688e",
+      "seal": "seals/entries/011.ots",
+      "state": "unsealed"
+    }
+  ],
+  "corrections": []
+}

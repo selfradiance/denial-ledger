@@ -1,0 +1,26 @@
+{
+  "id": "005",
+  "added": "2026-11-22",
+  "claim_date": "2023-09-28",
+  "country": "Slovakia",
+  "media": "audio",
+  "subject": "Michal Šimečka (Progressive Slovakia) and journalist Monika Tódová, apparently discussing rigging the election",
+  "called_fake_by": "Michal Šimečka and the newspaper Denník N",
+  "claim": "Two days before the national election, audio spread online in which Šimečka and a well-known journalist seemed to discuss buying votes. Both immediately said it was fake.",
+  "finding": "AFP fact-checkers consulted experts who concluded the audio was AI-synthesized from real samples of their voices. The conversation never happened.",
+  "verdict": "fake-called-fake",
+  "outcome": "Šimečka's party lost to Robert Fico's. Some called it the first election swung by a deepfake. Researchers writing in the Harvard Misinformation Review argue that overstates it and point to deeper causes.",
+  "sources": [
+    {
+      "title": "Beyond the deepfake hype: AI, democracy, and \"the Slovak case\"",
+      "publisher": "Harvard Kennedy School Misinformation Review",
+      "date": "2024-08",
+      "url": "https://misinforeview.hks.harvard.edu/article/beyond-the-deepfake-hype-ai-democracy-and-the-slovak-case/"
+    },
+    {
+      "title": "Slovakia: Deepfake audio of Denník N journalist offers worrying example of AI abuse",
+      "publisher": "International Press Institute",
+      "url": "https://ipi.media/slovakia-deepfake-audio-of-dennik-n-journalist-offers-worrying-example-of-ai-abuse/"
+    }
+  ]
+}

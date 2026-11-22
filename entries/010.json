@@ -1,0 +1,27 @@
+{
+  "id": "010",
+  "added": "2026-11-22",
+  "claim_date": "2025-05-26",
+  "country": "France",
+  "media": "video",
+  "subject": "Brigitte Macron appearing to push Emmanuel Macron's face as their plane door opened in Hanoi",
+  "called_fake_by": "The Élysée Palace (the president's office), at first",
+  "claim": "As the AP footage spread, French media reported that Macron's office first dismissed it as AI-generated and pushed by hostile accounts.",
+  "finding": "The footage was real; it was shot by the Associated Press. The Élysée reversed itself and confirmed it. Macron said all the videos were real and called it a moment of joking with his wife.",
+  "verdict": "real-called-fake",
+  "outcome": "The office reversed itself within about a day. A Macron ally told France Info the office had botched it by first talking about fakes.",
+  "sources": [
+    {
+      "title": "A video of the French president's wife shoving him went viral. Here's why it matters",
+      "publisher": "NPR",
+      "date": "2025-05-27",
+      "url": "https://www.npr.org/2025/05/27/nx-s1-5413101/macron-plane-wife-shove-video"
+    },
+    {
+      "title": "Emmanuel Macron's wife Brigitte Macron appears to shove his face upon arrival in Hanoi",
+      "publisher": "CBS News",
+      "date": "2025-05-26",
+      "url": "https://www.cbsnews.com/news/brigitte-macron-emmanuel-macron-wife-france-president-hanoi"
+    }
+  ]
+}
